@@ -1,0 +1,30 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "In this project, I made some endpoints for login user and create any posts and also like or dislike the post.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.21",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjankumar06/Blog_App_With_Node_js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ranjankumar06/Blog_App_With_Node_js/issues"
+  },
+  "homepage": "https://github.com/ranjankumar06/Blog_App_With_Node_js#readme"
+}
